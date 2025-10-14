@@ -7,7 +7,7 @@ import './App.css'
 // import Interests from '../src/sections/interests/Interests'
 // import Footer from '../src/sections/footer/Footer'
 // import Contact from '../src/sections/contact/Contact'
-// import Navbar from '../src/sections/navbar/Navbar'
+import Navbar from '../src/sections/navbar/Navbar'
 // import SplashScreen from '../src/sections/splashScreen/SplashScreen'
 import Hero from '../src/sections/hero/Hero'
 
@@ -20,7 +20,7 @@ function App() {
     {/* <Projects/>
      <Skills/> */}
      {/* <SplashScreen /> */}
-     {/* <Navbar/> */}
+     <Navbar/>
       {/* <Hero/> */}
       {/* <Certification/>
       <Skills/>
