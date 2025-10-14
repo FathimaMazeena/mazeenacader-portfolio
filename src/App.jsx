@@ -16,11 +16,12 @@ function App() {
 
   return (
     <>
+    <Navbar/>
     <Hero/>
     {/* <Projects/>
      <Skills/> */}
      {/* <SplashScreen /> */}
-     <Navbar/>
+     
       {/* <Hero/> */}
       {/* <Certification/>
       <Skills/>
