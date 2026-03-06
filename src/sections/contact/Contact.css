@@ -1,0 +1,202 @@
+/* contact */
+.social-links{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    /* transform: scale(0.8); */
+    
+    
+}
+
+
+
+.contact{
+    display: flex;
+    background: linear-gradient(to left,  #ddabe4af, #b7a4e394);
+    margin: 0;
+    position: relative;
+    height: 750px;
+
+}
+
+.contact-section{
+    margin: 0;
+}
+
+.social .logos{
+    /* background: var(--gradient-color);
+    padding: 15px;
+    border-radius: 30%; */
+    width: 25px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+    
+    
+    
+}
+
+.social{
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 8%;
+    left: 36%;
+
+}
+
+
+
+.social-icons{
+    background: var(--gradient-light);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease-in-out, transform 0.5s ease-in;
+}
+
+.social-icons:hover{
+    background: var(--gradient-color);
+    transform: scale(1.1);
+    cursor: pointer;
+    /* border: 1px solid white; */
+
+
+
+}
+
+.social-icons:hover .social .logos {
+    transform: scale(1.1);
+     
+   
+}
+
+.contact h3{
+    color: white;
+    text-shadow: none;
+}
+
+.social-mockup img{
+    width: 500px;  
+    height: auto; 
+}
+
+.note{
+    width: 400px;
+    height: auto;
+    position: relative;
+    transform:rotateY(180deg);
+    
+}
+
+/* .note::after{
+    content: "";
+    background-image: url("https://www.svgrepo.com/show/533306/send.svg");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.note-container{
+    position: relative;
+    transform: rotate(-3deg);
+    
+
+
+}
+
+.send-button{
+    position:absolute;
+    top: 65%;
+    left: 62%;
+    height: 45px;
+    width: 45px;
+    transition: 1s ease;
+}
+
+.send-button:hover{
+ transform: scale(0.9);
+ cursor: pointer;
+}
+
+.note-input{
+    transform: rotate(2deg);
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    height: 120px;
+    width: 150px;
+    resize: none;
+    
+}
+
+.note-input:focus {
+    border: none; /* Remove border on focus */
+    outline: none; /* Ensure outline is also removed */
+  }
+
+
+  .signature{
+    font-family: Sacramento;
+    transform: rotate(-3deg);
+    font-weight:400;
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+
+    
+  }
+/* .social-mockup{
+    position: relative;
+}
+
+.social-mockup::after {
+    content: "";
+    background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg");
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    width: 40px;  
+    height: 40px; 
+    background-size: cover; 
+    transition: 1s ease-in-out;
+}
+
+.social-mockup::before {
+    content: "";
+    background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg");
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    width: 40px;  
+    height: 40px; 
+    background-size: cover; 
+}
+
+.social-mockup:hover::after {
+    
+    width: 50px;  
+    height: 50px; 
+
+} */

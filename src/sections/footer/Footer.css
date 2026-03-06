@@ -1,0 +1,32 @@
+/* Footer */
+
+.footer{
+    /* background: var(--gradient-light); */
+    /* background-color: #6db3fc; */
+    background-color: #E0EFF4;
+    margin: 0;
+    height: 70px;
+
+}
+
+.footer-heading{
+    font-size: 14px;
+    margin: 0;
+    font-family: "McLaren";
+    display:flex;
+    justify-content: center;
+    /* background: linear-gradient(to right,#6b2cf5, #d450e6, #6db3fc );
+    color: transparent;
+    background-clip: text; */
+    text-shadow: 2px 2px 5px rgba(252, 250, 250, 0.469);
+    color:black;
+    font-weight: 400;
+
+    
+}
+
+.copyright{
+    font-size: 9px;
+    font-weight:400;
+    font-family: Poppins;
+}

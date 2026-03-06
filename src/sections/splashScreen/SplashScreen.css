@@ -1,0 +1,57 @@
+/* SplashScreen.css */
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, #ddabe4da, #b7a4e3c9);;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeOut 1s ease-in-out 2s forwards;
+}
+
+.splash-text {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* @keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; visibility: hidden; }
+} */
+
+
+.flip-container {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  overflow: hidden;
+  height: auto;
+}
+
+.flip-text {
+  display: flex;
+  flex-direction: column;
+  animation: flip 3s infinite;
+}
+
+.flip-text span {
+  display: block;
+  height: 60px;
+}
+
+/* @keyframes flip {
+  0% { transform: translateY(0); }
+  45% { transform: translateY(-60px); }
+  55% { transform: translateY(-60px); }
+  100% { transform: translateY(0); }
+} */
