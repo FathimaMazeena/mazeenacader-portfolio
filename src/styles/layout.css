@@ -2,7 +2,8 @@
 .section {
   padding-block: var(--section-padding);;
   min-height: 100vh;
-  
+  /* background-color: violet; */
+  overflow: hidden;
 }
 
 .container {
@@ -11,4 +12,9 @@
   padding-inline: 1rem;
   /* background-color: tan; */
 
+}
+
+::selection {
+  background-color: #E0EFF4;
+    color: #111;
 }

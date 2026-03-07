@@ -1,8 +1,23 @@
 import React from "react";
 import "./../../styles/layout.css";
 import "./Hero.css";
+import { useEffect } from "react";
+import gsap from "gsap";
 
 export default function Hero() {
+
+//    useEffect(() => {
+
+//   gsap.from(".giant-m", {
+//     scale: 0.5,
+//     opacity: 0,
+//     duration: 1.2,
+//     ease: "power3.out"
+//   });
+
+// }, []);
+
+
     return (
      <section className="section hero-section">
         <div className="container hero-wrapper">

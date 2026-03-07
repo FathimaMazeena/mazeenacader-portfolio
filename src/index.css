@@ -5,6 +5,8 @@
 
   --gradient-color: linear-gradient(to bottom, #6b2cf5, #d450e6, #6db3fc);
   --gradient-one: linear-gradient(to bottom, #6b2cf5, #d450e6);
+  /* --gradient-black: conic-gradient(from 180deg, #000000, #666666); */
+  --gradient-black: conic-gradient(from 180deg, #000000,#4d4d4d,#666666, #aaa1a1);
 }
 
 
@@ -20,5 +22,5 @@ body {
 }
 
 h1 { font-size: clamp(2rem, 5vw, 3rem); }
-h2 { font-size: 2rem; }
-p  { font-size: 1rem; line-height: 1.6; }
+h2 { font-size: clamp(1rem, 3vw, 2rem);}
+p  { font-size: clamp(0.8rem, 2vw, 1.1rem);line-height: 1.6; }
