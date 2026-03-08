@@ -4,18 +4,18 @@
 
 .business-card{
   position: relative;
-  padding: 20px;
+  /* padding: 20px; */
   background: #ffffff;
   border-radius: 16px;
 /* width: clamp(350px, 45vw, 500px); */
-width: clamp(300px, 50vw, 450px);
+width: clamp(350px, 60vw, 450px);
 /* width: 50vw; */
   /* max-width: 500px; */
   aspect-ratio: 6 / 4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2em;
+  padding: clamp(1.5em, 4vw, 2em);
   margin-block: clamp(2rem, 4vw, 5rem);
   /* margin-block-start: 4rem;
   margin-inline-start: 2rem; */
@@ -28,7 +28,7 @@ width: clamp(300px, 50vw, 450px);
     position: absolute;
     bottom: -80px;
     /* left: -160px; */
-    left: -130px;
+    left: -90px;
     
    
 
@@ -58,5 +58,28 @@ width: clamp(300px, 50vw, 450px);
   0%{background-position:0% 50%;}
   100%{background-position:100% 50%;}
 }
+
+/* @media (max-width: 600px) {
+    .business-card{
+    width: 70%;  
+     aspect-ratio: 6 / 4;
+    
+    
+  }
+    
+} */
+
+@media (max-width: 380px) {
+    .business-card{
+    width: 100%;  
+    margin: auto;             
+    /* padding: clamp(1em, 4vw, 2em);
+    margin-block: clamp(2rem, 4vw, 5rem); */
+    
+  }
+
+}
+
+  
 
 

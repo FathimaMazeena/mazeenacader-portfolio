@@ -1,9 +1,15 @@
+.snapshot-wrapper{
+    padding: clamp(0.1rem, 4vw, 6rem);
+}
+
 .title-light{
 font-size: 0.7em;
+padding-left: 2rem;
 }
 
 .title-dark{
     font-size: 1em;
+    padding-left: 2rem;
 }
 
 .card-title{
@@ -33,68 +39,3 @@ font-size: 0.7em;
     /* background-color: #595858; */
     width: 100%;
 }
-
-
-/* .socials{
-
-
-    display: flex;
-     gap: 20px;
-    justify-content: flex-start;
-    
-
-}
-
-.logos{
-  height: 40px;
-  width: auto;
-  margin: 10px;
-  padding: 2px;
-
-  
-  
-}
-
-
-.social-icons{
-    background: var(--gradient-light);
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;
-    transition: background 0.3s ease-in-out, transform 0.5s ease-in;
-}
-
-.social-icons:hover{
-    background: var(--gradient-color);
-    transform: scale(1.1);
-    cursor: pointer;
-    
-
-
-
-}
-
-.social-icons:hover .social .logos {
-    transform: scale(1.1);
-     
-   
-} */
-
-
-
-/* .card-case{
-    width: 100%;
-    height: 100px;
-    background: var(--gradient-black-light);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 18px;
-    animation: borderMove 6s linear infinite;
-} */

@@ -65,8 +65,8 @@
 
 .social-icons{
   background: var(--gradient-light);
-  width: clamp(2rem, 4vw, 3rem);
-  height: clamp(2rem, 4vw, 3rem);
+  width: clamp(2rem, 5vw, 2.5rem);
+  height: clamp(2rem, 5vw, 2.5rem);
   border-radius: 50%;
 
   display: flex;
