@@ -4,9 +4,20 @@
   --text-primary: #111;
 
   --gradient-color: linear-gradient(to bottom, #6b2cf5, #d450e6, #6db3fc);
+   --gradient-light: linear-gradient(to bottom right, #6c2cf5a8, #d550e6a4, #6db2fca5);
   --gradient-one: linear-gradient(to bottom, #6b2cf5, #d450e6);
   /* --gradient-black: conic-gradient(from 180deg, #000000, #666666); */
   --gradient-black: conic-gradient(from 180deg, #000000,#4d4d4d,#666666, #aaa1a1);
+  --gradient-black-light: linear-gradient(
+  45deg,
+  rgba(153,153,153,0.5) 0%,
+  rgba(166,166,166,0.5) 17%,
+  rgba(179,179,179,0.5) 40%,
+  rgba(185,185,185,0.5) 58%,
+  rgba(209,208,208,0.5) 78%,
+  rgba(232,231,231,0.5) 100%
+);
+
 }
 
 
@@ -21,6 +32,16 @@ body {
   margin: 0;
 }
 
-h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h1 
+{ 
+  font-size: clamp(2rem, 5vw, 3rem); 
+  font-weight: 400;
+     background: var(--gradient-black);
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+}
 h2 { font-size: clamp(1rem, 3vw, 2rem);}
 p  { font-size: clamp(0.8rem, 2vw, 1.1rem);line-height: 1.6; }

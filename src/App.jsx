@@ -12,6 +12,7 @@ import Navbar from '../src/sections/navbar/Navbar'
 import Hero from '../src/sections/hero/Hero'
 import Projects from '../src/sections/projects/Projects'
 import About from './sections/about/About'
+import Snapshot from './sections/snapshot/Snapshot'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Snapshot/>
     {/* <Projects/> */}
      {/* <Skills/> */}
      {/* <SplashScreen /> */}

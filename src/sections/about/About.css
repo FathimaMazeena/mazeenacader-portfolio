@@ -22,13 +22,7 @@
     padding-inline-start: 4rem;
 }
 
-.left-col h1{
-     font-weight: 400;
-     background: var(--gradient-black);
-    -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
+
 
 .left-col h3{
   color: #7A7A7A;
@@ -105,12 +99,12 @@
 
     .about-wrapper{
         flex-direction: column;
-        /* padding-block: 2rem; */
+        padding-block: 2rem;
     }
 
     .right-col{
     padding-block-start: 0;
-    padding-inline-start: 4rem;
+    padding-inline: 2rem;
     
   
 }
@@ -121,6 +115,7 @@
 
 .left-col{
   padding-block-end: 0;
+  padding-inline: 2rem;
 }
 
 .resume-wrapper{

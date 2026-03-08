@@ -1,3 +1,62 @@
 .button{
     
 }
+
+.business-card{
+  position: relative;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+/* width: clamp(350px, 45vw, 500px); */
+width: clamp(300px, 50vw, 450px);
+/* width: 50vw; */
+  /* max-width: 500px; */
+  aspect-ratio: 6 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+  margin-block: clamp(2rem, 4vw, 5rem);
+  /* margin-block-start: 4rem;
+  margin-inline-start: 2rem; */
+}
+
+.card-case{
+    width: 100vw;
+    height: 80%;
+    background: var(--gradient-black-light);
+    position: absolute;
+    bottom: -80px;
+    /* left: -160px; */
+    left: -130px;
+    
+   
+
+
+    clip-path: polygon(
+    0% 20%,   /* top-left (lower) */
+    100% 0%,  /* top-right (higher) */
+    100% 100%,
+    0% 100%
+
+  );
+
+}
+
+
+.business-card::before{
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: var(--gradient-color);
+  border-radius: 18px;
+  z-index: -1;
+  animation: borderMove 6s linear infinite;
+}
+
+@keyframes borderMove{
+  0%{background-position:0% 50%;}
+  100%{background-position:100% 50%;}
+}
+
+
