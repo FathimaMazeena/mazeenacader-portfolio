@@ -22,13 +22,17 @@ width: clamp(350px, 60vw, 450px);
 }
 
 .card-case{
-    width: 100vw;
+    width: 108vw;
     height: 80%;
     background: var(--gradient-black-light);
     position: absolute;
-    bottom: -80px;
+
+    bottom: -12vh;
     /* left: -160px; */
-    left: -90px;
+    /* left: -90px; */
+    /* left: clamp(-20%, 30vw, -10%); */
+    left: -20%;
+    /* transform: translateX(-100%); */
     
    
 
