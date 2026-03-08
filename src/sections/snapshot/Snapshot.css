@@ -7,6 +7,8 @@ font-size: 0.7em;
 }
 
 .card-title{
+    font-size: clamp(1.3rem, 3vw, 2rem);
+     background: var(--gradient-one);
     color: #595858;
  font-family: "DM Sans", sans-serif;
  line-height: 0;
@@ -27,8 +29,63 @@ font-size: 0.7em;
 
 .social-contact-container{
     display: flex;
-    gap: 50px;
+    gap: clamp(2rem, 6vw, 4rem);
+    /* background-color: #595858; */
+    width: 100%;
 }
+
+
+/* .socials{
+
+
+    display: flex;
+     gap: 20px;
+    justify-content: flex-start;
+    
+
+}
+
+.logos{
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  padding: 2px;
+
+  
+  
+}
+
+
+.social-icons{
+    background: var(--gradient-light);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease-in-out, transform 0.5s ease-in;
+}
+
+.social-icons:hover{
+    background: var(--gradient-color);
+    transform: scale(1.1);
+    cursor: pointer;
+    
+
+
+
+}
+
+.social-icons:hover .social .logos {
+    transform: scale(1.1);
+     
+   
+} */
+
+
 
 /* .card-case{
     width: 100%;

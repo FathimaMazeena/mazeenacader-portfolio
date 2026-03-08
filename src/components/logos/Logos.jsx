@@ -1,10 +1,9 @@
 import React from 'react'
 import './Logos.css';
 
-function Logos() {
+function Logos({ type }) {
   return (
-    <section>
-        <div class="logos">
+        <div className="logos">
              {type === "social" && (
         <>
                   <a
@@ -12,12 +11,10 @@ function Logos() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div class="social-icons">
+                    <div className="social-icons">
                       <svg
                         className="logo"
                         fill="#ffffff"
-                        height="200px"
-                        width="200px"
                         version="1.1"
                         id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +52,7 @@ function Logos() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div class="social-icons">
+                    <div className="social-icons">
                       <svg
                         className="logo"
                         viewBox="0 0 20 20"
@@ -112,11 +109,9 @@ function Logos() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div class="social-icons">
+                    <div className="social-icons">
                       <svg
                         className="logo"
-                        height="200px"
-                        width="200px"
                         viewBox="0 -55 256 256"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -153,9 +148,9 @@ function Logos() {
                {type === "contact" && (
         <>
                     <a href="mailto:fathimamazeena.mycloudcubicle@gmail.com">
-                  <div class="social-icons">
+                  <div className="social-icons">
                     <svg
-                      class="logo"
+                      className="logo"
                       fill="#ffffff"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
@@ -178,9 +173,9 @@ function Logos() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div class="social-icons">
+                  <div className="social-icons">
                     <svg
-                      class="logo"
+                      className="logo"
                       viewBox="0 0 20 20"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +228,7 @@ function Logos() {
                  </>
              )}
                 </div>
-    </section>
+
   )
 }
 

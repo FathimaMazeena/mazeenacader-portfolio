@@ -1,7 +1,7 @@
 import "./../../styles/layout.css";
 import "../../styles/components.css";
 import "./Snapshot.css";
-// import Logos from "../../components/logos/Logos";
+import Logos from "../../components/logos/Logos";
 
 export default function Snapshot() {
   return (
@@ -16,9 +16,9 @@ export default function Snapshot() {
             <div>
               <h2 className="card-title">Mazeena Cader</h2>
               <p className="card-text">Aspiring Software Engineer</p>
-              <p className="card-text">
+              {/* <p className="card-text">
                 Creating seamless human centered web experiences
-              </p>
+              </p> */}
             </div>
 
             <div>
@@ -31,7 +31,149 @@ export default function Snapshot() {
             <div  className="social-contact-container">
               <div>
                 <h3 className="card-text">Links</h3>
-                {/* <Logos type="social" /> */}
+                <Logos type="social" />
+
+                {/* <div className="socials">
+                    <a
+                    href="https://www.linkedin.com/in/fathimamazeenacader/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons">
+                      <svg
+                        className="logos"
+                        fill="#ffffff"
+                        height="200px"
+                        width="200px"
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512.003 512.003"
+                        xml:space="preserve"
+                        stroke="#ffffff"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          {" "}
+                          <g transform="translate(0 -1)">
+                            {" "}
+                            <g>
+                              {" "}
+                              <g>
+                                {" "}
+                                <path d="M68.762,5.195h-0.06c-18.261,0-35.482,7.1-48.478,19.985C7.185,38.1,0,55.243,0,73.453 c-0.009,18.611,7.33,36.053,20.625,49.092c12.894,12.629,30.481,19.721,47.531,19.311c0.495,0.009,0.99,0.017,1.493,0.017 c17.092,0,34.014-6.963,46.618-19.251c13.286-12.945,20.625-30.319,20.668-48.922c0.043-18.193-7.074-35.362-20.019-48.358 C103.979,12.363,86.878,5.212,68.762,5.195z"></path>{" "}
+                                <path d="M102.403,158.941H33.411c-13.713,0-24.875,11.511-24.875,25.651v298.615c0,13.841,11.725,25.532,25.6,25.532h68.267 c13.875,0,25.6-11.46,25.6-25.011V184.541C128.003,170.666,116.279,158.941,102.403,158.941z"></path>{" "}
+                                <path d="M393.645,150.408h-17.98c-33.135,0-64.922,14.114-85.53,37.427v-11.827c0-8.457-8.619-17.067-17.067-17.067h-85.333 c-7.893,0-17.067,6.997-17.067,16.017v318.404c0,9.054,8.994,15.369,17.067,15.377l93.867,0.026 c8.073,0,17.067-6.315,17.067-15.377V309.435c0-27.75,20.574-49.724,46.839-50.022c13.355-0.299,25.975,4.966,35.422,14.43 c7.808,7.808,11.605,19.208,11.605,34.859v183.04c0,8.457,8.619,17.067,17.067,17.067h85.333c8.448,0,17.067-8.61,17.067-17.067 V271.496C512.003,203.596,460.009,150.408,393.645,150.408z"></path>{" "}
+                              </g>{" "}
+                            </g>{" "}
+                          </g>{" "}
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/FathimaMazeena"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons">
+                      <svg
+                        className="logos"
+                        viewBox="0 0 20 20"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        fill="#ffffff"
+                        stroke="#ffffff"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          {" "}
+                          <title>github [#142]</title>{" "}
+                          <desc>Created with Sketch.</desc> <defs> </defs>{" "}
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            {" "}
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-140.000000, -7559.000000)"
+                              fill="#ffffff"
+                            >
+                              {" "}
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                {" "}
+                                <path
+                                  d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                  id="github-[#142]"
+                                >
+                                  {" "}
+                                </path>{" "}
+                              </g>{" "}
+                            </g>{" "}
+                          </g>{" "}
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://medium.com/@mazeenacader"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons">
+                      <svg
+                        className="logos"
+                        height="200px"
+                        width="200px"
+                        viewBox="0 -55 256 256"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        preserveAspectRatio="xMidYMid"
+                        fill="#000000"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          {" "}
+                          <g>
+                            {" "}
+                            <path
+                              d="M72.2009141,1.42108547e-14 C112.076502,1.42108547e-14 144.399375,32.5485469 144.399375,72.6964154 C144.399375,112.844284 112.074049,145.390378 72.2009141,145.390378 C32.327779,145.390378 0,112.844284 0,72.6964154 C0,32.5485469 32.325326,1.42108547e-14 72.2009141,1.42108547e-14 Z M187.500628,4.25836743 C207.438422,4.25836743 223.601085,34.8960455 223.601085,72.6964154 L223.603538,72.6964154 C223.603538,110.486973 207.440875,141.134463 187.503081,141.134463 C167.565287,141.134463 151.402624,110.486973 151.402624,72.6964154 C151.402624,34.9058574 167.562834,4.25836743 187.500628,4.25836743 Z M243.303393,11.3867175 C250.314,11.3867175 256,38.835526 256,72.6964154 C256,106.547493 250.316453,134.006113 243.303393,134.006113 C236.290333,134.006113 230.609239,106.554852 230.609239,72.6964154 C230.609239,38.837979 236.292786,11.3867175 243.303393,11.3867175 Z"
+                              fill="#ffffff"
+                            >
+                              {" "}
+                            </path>{" "}
+                          </g>{" "}
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                </div> */}
+
 
 
                 
@@ -39,8 +181,87 @@ export default function Snapshot() {
 
               <div>
                 <h3 className="card-text">Contact</h3>
-                {/* <Logos type="contact" /> */}
-                
+                <Logos type="contact" />
+                {/* <div className="socials">
+                     <a href="mailto:fathimamazeena.mycloudcubicle@gmail.com">
+                  <div className="social-icons">
+                    <svg
+                      className="logos"
+                      fill="#ffffff"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      stroke="#ffffff"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  href="https://wa.me/+94758843241"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="social-icons">
+                    <svg
+                      className="logos"
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#ffffff"
+                      stroke="#ffffff"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        {" "}
+                        <title>whatsapp [#128]</title>{" "}
+                        <desc>Created with Sketch.</desc> <defs> </defs>{" "}
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          {" "}
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-300.000000, -7599.000000)"
+                            fill="#ffffff"
+                          >
+                            {" "}
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              {" "}
+                              <path
+                                d="M259.821,7453.12124 C259.58,7453.80344 258.622,7454.36761 257.858,7454.53266 C257.335,7454.64369 256.653,7454.73172 254.355,7453.77943 C251.774,7452.71011 248.19,7448.90097 248.19,7446.36621 C248.19,7445.07582 248.934,7443.57337 250.235,7443.57337 C250.861,7443.57337 250.999,7443.58538 251.205,7444.07952 C251.446,7444.6617 252.034,7446.09613 252.104,7446.24317 C252.393,7446.84635 251.81,7447.19946 251.387,7447.72462 C251.252,7447.88266 251.099,7448.05372 251.27,7448.3478 C251.44,7448.63589 252.028,7449.59418 252.892,7450.36341 C254.008,7451.35771 254.913,7451.6748 255.237,7451.80984 C255.478,7451.90987 255.766,7451.88687 255.942,7451.69881 C256.165,7451.45774 256.442,7451.05762 256.724,7450.6635 C256.923,7450.38141 257.176,7450.3464 257.441,7450.44643 C257.62,7450.50845 259.895,7451.56477 259.991,7451.73382 C260.062,7451.85686 260.062,7452.43903 259.821,7453.12124 M254.002,7439 L253.997,7439 L253.997,7439 C248.484,7439 244,7443.48535 244,7449 C244,7451.18666 244.705,7453.21526 245.904,7454.86076 L244.658,7458.57687 L248.501,7457.3485 C250.082,7458.39482 251.969,7459 254.002,7459 C259.515,7459 264,7454.51465 264,7449 C264,7443.48535 259.515,7439 254.002,7439"
+                                id="whatsapp-[#128]"
+                              >
+                                {" "}
+                              </path>{" "}
+                            </g>{" "}
+                          </g>{" "}
+                        </g>{" "}
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+                </div> */}
                 
               </div>
             </div>
