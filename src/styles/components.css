@@ -22,7 +22,7 @@ width: clamp(350px, 60vw, 450px);
 }
 
 .card-case{
-    width: 108vw;
+    width: 115vw;
     height: 80%;
     background: var(--gradient-black-light);
     position: absolute;
