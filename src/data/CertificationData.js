@@ -55,7 +55,82 @@ const certifications = [
     completion: "May 2025",
     certificateLink: "#"
   }
+  ,
 
+  {
+    id: 5,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  },
+
+
+  {
+    id: 6,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  }
+
+  ,
+
+  {
+    id: 7,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  }
+
+  ,
+
+  {
+    id: 8,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  }
+
+  ,
+
+  {
+    id: 9,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  }
+
+  ,
+
+  {
+    id: 10,
+    name: "TOP-UP",
+    title: "Bsc.(Hons) Software Engineering",
+    provider: "Cardiff Metropolitan University",
+    duration: "1 years",
+    grade: "-",
+    completion: "May 2025",
+    certificateLink: "#"
+  }
    
                       
 

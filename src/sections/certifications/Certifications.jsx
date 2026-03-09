@@ -3,12 +3,36 @@ import "./Certifications.css";
 import certifications from "../../data/CertificationData";
 
 function Certifications() {
+//   useEffect(() => {
+//   const container = document.querySelector('.certificate-belt .certification-container');
+//   let scrollAmount = 0;
+
+//   function scrollBadges() {
+//     scrollAmount += 1;
+
+//     if (scrollAmount >= container.scrollWidth / 2) {
+//       scrollAmount = 0;
+//     }
+
+//     container.style.transform = `translateX(-${scrollAmount}px)`;
+
+//     requestAnimationFrame(scrollBadges);
+//   }
+
+//   scrollBadges();
+// }, []);
+
+
   return (
     <section id="certifications" className="section certification-section">
       <div className="container cerification-wrapper">
 
 <h1>CERTIFICATIONS</h1>
-      <div className="certification-container">
+
+<div className="certificate-belt">
+
+
+  <div className="certification-container">
         {certifications.map((cert) => (
           <div key={cert.id} className="logo-wrapper">
             <div className="certfication-logo" data-content={cert.name}>
@@ -80,7 +104,7 @@ function Certifications() {
   {/* Circular text on bottom */}
   <text fill="black" fontSize="2">
     <textPath href={`#circlePath${cert.id}`} startOffset="50%" method="stretch" spacing="auto">
-      CERTIFIED • {cert.name} • COMPLETED
+    CERTIFIED • {cert.name} • COMPLETED 
     </textPath>
   </text>
 
@@ -99,6 +123,8 @@ function Certifications() {
           </div>
         ))}
       </div>
+</div>
+      
       </div>
       
     </section>
