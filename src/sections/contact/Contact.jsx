@@ -3,6 +3,7 @@ import './Contact.css'
 // import '../skills/Skills.css'
 import note from '../../assets/note.png'
 import mockup from '../../assets/social-mockup2.png'
+import Logos from "../../components/logos/Logos";
 
 function Contact() {
   return (
@@ -15,7 +16,7 @@ function Contact() {
             <h3 className="skill-category-title"><span className="title-highlight">CONNECT</span> with Me Here</h3>
             
             
-            <div className="social-links">
+            <div className="contact-wrapper">
               <div className="note-container">
                 <img className="note" src={note}/> 
                
@@ -33,16 +34,11 @@ function Contact() {
     
       
   
-        <div className="social-mockup">
-          <img src={mockup}/>
-        </div>
+    
 
         <div className="social">
-          
-          <div className="social-icons"><img className="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" /></div>  
-          <div className="social-icons"><img className="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></div>  
-          <div className="social-icons"><img className="logos" src="https://www.svgrepo.com/show/488179/email.svg"/></div>  
-          <div className="social-icons"><img className="logos" src="https://img.icons8.com/?size=100&id=78224&format=png&color=000000"/></div>  
+          <Logos type="social" />
+          <Logos type="contact" />
           
         </div>
   
