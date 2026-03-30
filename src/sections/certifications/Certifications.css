@@ -24,9 +24,11 @@
 } */
 
 .certificate-belt{
-    width: 100%;
-  overflow: hidden;
-  
+    
+ 
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+   overflow: hidden;
   padding: 10px 0;
   position: relative;
   /* background-color: antiquewhite; */

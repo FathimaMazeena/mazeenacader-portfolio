@@ -1,0 +1,103 @@
+
+.titleLight{
+font-size: 0.4em;
+
+}
+
+.titleDark{
+    font-size: 0.6em;
+
+}
+
+.projectCard {
+  width: clamp(25rem, 50vw, 40rem);
+  aspect-ratio: 16/9;
+  /* background-color: aqua; */
+
+  background: #f4f4f4;
+  /* background: var(--gradient-black-light); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  
+}
+
+
+
+
+.projectCard::before{
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: var(--gradient-color);
+  border-radius: 32px;
+  z-index: -1;
+
+}
+
+
+
+
+.projectCardRight p {
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+
+.projectCardLeft  {
+
+  line-height: 0.8;
+  display: flex;
+  flex-direction: column;
+ 
+
+  
+}
+
+/* .projectCardLeft ul li{
+  font-size: 0.5em;
+} */
+
+.techIcons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.techIcon{
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  background: var(--gradient-light-two);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.primaryTech{
+  font-size: 1.5em;
+    background: var(--gradient-light-two);
+   
+    padding-block: 0.5em;
+    padding-inline: 1em;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+
+}
+
+.technologies{
+/* background-color: #333; */
+  display: flex;
+  /* gap: 10rem; */
+gap: clamp(1rem, 10vw, 10rem);
+   position: absolute;
+    top: 1rem;
+    left: 0;
+
+}
+
+.projectContent{
+  display: flex;
+
+}

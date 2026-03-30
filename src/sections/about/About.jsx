@@ -24,8 +24,14 @@ export default function About() {
           
         </div>
 
+        
       
         </div>
+
+        <div className="education">
+            <h1 className="">EDUCATION</h1>
+        </div>
+
 
         <div className="resume-wrapper">
              <a
