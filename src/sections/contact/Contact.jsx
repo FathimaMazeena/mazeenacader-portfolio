@@ -6,10 +6,89 @@ import mockup from "../../assets/social-mockup2.png";
 import Logos from "../../components/logos/Logos";
 import notes from "../../data/NotesData";
 
+
 function Contact() {
   return (
     <div>
       <section id="contact" className="section contact-section">
+        <div className="container email-section">
+          <div className="contact-left">
+             <h1>
+            <span className="title-dark">LET'S CONNECT</span>
+           
+          </h1>
+
+
+          <div class="contact-wheel">
+
+  <a href="mailto:yourname@example.com" className="circle-link"></a>
+  <a href="mailto:fathimamazeena.mycloudcubicle@gmail.com" className="circle-link"><i className="fas fa-envelope"></i></a>
+  <a href="https://github.com/yourprofile" className="circle-link"></a>
+  <a href="https://www.linkedin.com/in/fathimamazeenacader/" className="circle-link"><i className="fa-brands fa-linkedin-in"></i></a>
+  <a href="https://wa.me/+94758843241" className="circle-link"><i className="fab fa-whatsapp"></i></a>
+   <a href="https://medium.com/@mazeenacader" className="circle-link"><i className="fab fa-medium"></i></a>
+  <a href="https://github.com/yourprofile" className="circle-link"></a>
+  <a href="https://github.com/FathimaMazeena" className="circle-link"><i className="fab fa-github"></i></a>
+  <a href="https://twitter.com/yourprofile" className="circle-link"></a>
+
+</div>
+
+{/* <div className="contact-links">
+   <div className="button">Github</div>
+          <div className="button">Email</div>
+          <div className="button">Phone</div>
+          <div className="button">Linkedin</div>
+          <Logos type="social"/>
+          <Logos type="contact"/>
+</div>
+          */}
+
+          </div>
+         
+
+
+          <div className="contact-form">
+             <div className="row"><h2>Send Me a Message</h2></div>
+            <div className="row">
+  <label>To:</label>
+  <p className="recipient-mail">
+    fathimamazeena.mycloudcubicle@gmail.com
+  </p>
+</div>
+ <div className="row">
+  <label>From:</label>
+            <p className="input-box senders-mail">
+
+              <input
+             
+                type="text"
+                id="email"
+                email="email"
+                placeholder="typeyouremailhere@gmail.com"
+              />
+            </p>
+            </div>
+
+             <div className="row">
+  <label>Subject:</label>
+  <p className="input-box subject">
+    <input
+             
+                type="text"
+                id="subject"
+                placeholder="Subject"
+              />
+  </p>
+</div>
+            <div>
+              <label>Message:</label>
+              <div className="message-box"><textarea rows="10" placeholder="Write something before you go!"></textarea></div>
+            </div>
+
+            <button className="button">Send Message</button>
+          </div>
+        </div>
+
         <div className="container contact-wrapper">
           <div className="contact-left">
             <h1>
@@ -59,9 +138,13 @@ function Contact() {
             {notes.map((note) => (
               <div key={note.id} className="note">
                 <div className="note-inner">
-                  <div className="note-front"><p>{note.name}</p></div>
+                  <div className="note-front">
+                    <p>{note.name}</p>
+                  </div>
 
-                  <div className="note-back"><p>{note.note}</p></div>
+                  <div className="note-back">
+                    <p>{note.note}</p>
+                  </div>
                 </div>
               </div>
             ))}

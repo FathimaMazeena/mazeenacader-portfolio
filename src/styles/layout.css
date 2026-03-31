@@ -1,6 +1,6 @@
 
 .section {
-  padding-block: var(--section-padding);;
+  padding-block: var(--section-padding);
   min-height: 100vh;
   /* background-color: violet; */
   overflow: hidden;

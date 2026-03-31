@@ -1,5 +1,25 @@
 .button{
-    
+  background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
+
+  border-radius: 100px;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+
+  padding: 8px 16px;  
+
+  border: none;
+
+
+  font-family: "Montserrat", serif;
+  margin-block: 4rem;
+  cursor: pointer;
+
 }
 
 .business-card{

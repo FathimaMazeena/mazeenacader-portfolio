@@ -77,7 +77,12 @@
 }
 
 .social-icons:hover{
-  background: var(--gradient-color);
+background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
   transform: scale(1.1);
   cursor: pointer;
 }

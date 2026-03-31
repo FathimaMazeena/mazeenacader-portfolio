@@ -1,6 +1,6 @@
 :root {
   --max-width: 1200px;
-  --section-padding: 4rem;
+  --section-padding: 1rem;
   --text-primary: #111;
 
   --gradient-color: linear-gradient(to bottom, #6b2cf5, #d450e6, #6db3fc);
@@ -318,7 +318,7 @@ h1
 
 
 }
-h2 { font-size: clamp(1rem, 3vw, 2rem);
+h2 { font-size: clamp(1.5rem, 3vw, 2rem);
  /* font-weight: 300;
      background: var(--gradient-black);
     -webkit-background-clip: text;
