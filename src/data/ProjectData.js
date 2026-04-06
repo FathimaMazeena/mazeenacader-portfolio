@@ -25,7 +25,8 @@ const projects = [
     ],
     status: "Completed",
     type: "Affiliated to Cardiff Metropolitan University",
-    date: "May 2024"
+    date: "May 2024",
+    isFeatured: 1
 
   },
  
@@ -66,7 +67,8 @@ const projects = [
     "Integrated third-party API (TMDb) for real-time data",
     "Implemented global state management using Context API",
     "Focused on UX with modern UI patterns and responsiveness"
-  ]
+  ],
+  isFeatured: 1
 },
 
 
@@ -90,7 +92,8 @@ const projects = [
     ],
     status: "Completed",
     type: "Personal Project",
-    date: "May 2024"
+    date: "May 2024",
+    isFeatured: 1
 
     },
 
@@ -111,7 +114,8 @@ const projects = [
     ],
     status: "Completed",
     type: "Personal Project",
-    date: "May 2024"
+    date: "May 2024",
+    isFeatured: 1
 
     },
 
@@ -132,7 +136,8 @@ const projects = [
     ],
     status: "Completed",
     type: "Personal Project",
-    date: "May 2024"
+    date: "May 2024",
+    isFeatured: 1
 
     },
 
@@ -153,72 +158,76 @@ const projects = [
     ],
     status: "Completed",
     type: "Personal Project",
-    date: "May 2024"
+    date: "May 2024",
+    isFeatured: 1
 
     },
 
-    // {  
-    // id: 7,     
-    // name: "Depression Risk Assessment",
-    // title: "Digital Detox Event Landing Page",
-    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    // primaryTechnology: "Next.js",
-    // technologies: ["React", "Node.js", "MongoDB"],
-    // "cover": depressionCover,
-    // image: "https://via.placeholder.com/300x200",
-    // link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
-    // features: [
-    //   "Feature 1: User authentication and authorization.",
-    //   "Feature 2: Real-time data updates with WebSockets.", 
-    //     "Feature 3: Responsive design for mobile and desktop."
-    // ],
-    // status: "Completed",
-    // type: "Personal Project",
-    // date: "May 2024"
+    {  
+    id: 7,     
+    name: "Depression Risk Assessment",
+    title: "Digital Detox Event Landing Page",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    primaryTechnology: "Next.js",
+    technologies: ["React", "Node.js", "MongoDB"],
+    "cover": depressionCover,
+    image: "https://via.placeholder.com/300x200",
+    link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
+    features: [
+      "Feature 1: User authentication and authorization.",
+      "Feature 2: Real-time data updates with WebSockets.", 
+        "Feature 3: Responsive design for mobile and desktop."
+    ],
+    status: "Completed",
+    type: "Personal Project",
+    date: "May 2024",
+    isFeatured: 1
 
-    // },
+    },
 
-    //  {  
-    // id: 8,     
-    // name: "Depression Risk Assessment",
-    // title: "Digital Detox Event Landing Page",
-    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    // primaryTechnology: "Next.js",
-    // technologies: ["React", "Node.js", "MongoDB"],
-    // "cover": depressionCover,
-    // image: "https://via.placeholder.com/300x200",
-    // link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
-    // features: [
-    //   "Feature 1: User authentication and authorization.",
-    //   "Feature 2: Real-time data updates with WebSockets.", 
-    //     "Feature 3: Responsive design for mobile and desktop."
-    // ],
-    // status: "Completed",
-    // type: "Personal Project",
-    // date: "May 2024"
+     {  
+    id: 8,     
+    name: "Depression Risk Assessment",
+    title: "Digital Detox Event Landing Page",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    primaryTechnology: "Next.js",
+    technologies: ["React", "Node.js", "MongoDB"],
+    "cover": depressionCover,
+    image: "https://via.placeholder.com/300x200",
+    link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
+    features: [
+      "Feature 1: User authentication and authorization.",
+      "Feature 2: Real-time data updates with WebSockets.", 
+        "Feature 3: Responsive design for mobile and desktop."
+    ],
+    status: "Completed",
+    type: "Personal Project",
+    date: "May 2024",
+    isFeatured: 1
 
-    // },
+    },
 
-    //  {  
-    // id: 9,     
-    // name: "Depression Risk Assessment",
-    // title: "Digital Detox Event Landing Page",
-    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    // primaryTechnology: "Next.js",
-    // technologies: ["React", "Node.js", "MongoDB"],
-    // "cover": depressionCover,
-    // image: "https://via.placeholder.com/300x200",
-    // link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
-    // features: [
-    //   "Feature 1: User authentication and authorization.",
-    //   "Feature 2: Real-time data updates with WebSockets.", 
-    //     "Feature 3: Responsive design for mobile and desktop."
-    // ],
-    // status: "Completed",
-    // type: "Personal Project",
-    // date: "May 2024"
+     {  
+    id: 9,     
+    name: "Depression Risk Assessment",
+    title: "Digital Detox Event Landing Page",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    primaryTechnology: "Next.js",
+    technologies: ["React", "Node.js", "MongoDB"],
+    "cover": depressionCover,
+    image: "https://via.placeholder.com/300x200",
+    link: "https://reconnect-digital-detox-landing-pag.vercel.app/",
+    features: [
+      "Feature 1: User authentication and authorization.",
+      "Feature 2: Real-time data updates with WebSockets.", 
+        "Feature 3: Responsive design for mobile and desktop."
+    ],
+    status: "Completed",
+    type: "Personal Project",
+    date: "May 2024",
+    isFeatured: 1
 
-    // },
+    },
 
 
   

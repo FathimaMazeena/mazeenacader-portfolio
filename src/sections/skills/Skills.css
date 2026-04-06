@@ -262,3 +262,18 @@ width: 2.5rem;
 }
 
  }
+
+ .skills-left .highlight{
+  
+
+
+   background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+ }

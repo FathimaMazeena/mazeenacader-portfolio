@@ -7,7 +7,7 @@ const Skills = () => {
     <section id="skills" className="skills-section">
       
       <div className="skills-left">
-        <h1>Confident in what I’ve mastered —</h1>
+        <h1>Confident in what I’ve <span className="highlight">mastered</span> —</h1>
 
        <div className="skills-container skills-container-left">
   {Object.entries(TechIcons.mastered).map(([tech, icon], index) => (

@@ -1,10 +1,10 @@
 .title-light{
-font-size: 0.3em;
+/* font-size: 0.3em; */
 /* font-family: "Playfair Display", serif; */
-font-family: "Poppins", serif; 
+/* font-family: "Poppins", serif; 
 font-style: italic;
 color:rgb(0, 0, 0);
-font-weight: 200; 
+font-weight: 200;  */
 /* padding-left: 2rem;*/
 }
 
@@ -238,7 +238,7 @@ font-size: 1em;
 
 .contact-section{
   /* background: var(--gradient-fade-white); */
-  background: var(--gradient-fade-white);
+  /* background: var(--gradient-subtle); */
 }
 
 .contact-wrapper{
@@ -373,9 +373,16 @@ padding-left: 2rem;
 
 .note-front{
 
-  background:#d4bbf9;
-  background-image: 
-    linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.05));
+  /* background:#d4bbf9; */
+  /* background-image: 
+    linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.05)); */
+    background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
+  color: white;
 }
 
 .note-back{
@@ -424,22 +431,22 @@ padding-left: 2rem;
 }
 
 
-.note:nth-child(3n+1) .note-front{
-  background:#d4bbf9;
+/* .note:nth-child(3n+1) .note-front{
+  background:#cac9cc;
   
 }
 
 .note:nth-child(3n+2) .note-front{
-  background:#c9a9f5;
+  background:#7c7c7c;
 }
 
 .note:nth-child(3n+3) .note-front{
-  background:#bfa0f0;
+  background:#676768;
 }
 
 .note:nth-child(3n+4) .note-front{
-  background:#e0ccff;
-}
+  background:#dbdbdc;
+} */
 
 
 
@@ -598,7 +605,55 @@ margin: 4rem;
 .circle-link:nth-child(7) { justify-self: end; align-self: start; }
 .circle-link:nth-child(9) { justify-self: start; align-self: start; }
 
+.connect{
+  position: relative;
+  letter-spacing: 20px;
+  /* background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
 
+  -webkit-background-clip: text;
+  background-clip: text; */
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+}
+
+.connect::before{
+  content: "";
+   background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
+  z-index: -2;
+  inset: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* .connect:before{
+content: "CONNECT";
+
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+
+} */
 
 /* .grid-item:nth-child(1) .circle-link  ,
 .grid-item:nth-child(3) .circle-link,
@@ -615,5 +670,9 @@ margin: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .contact-form{
+    margin-inline:  0.5rem; 
   }
 }

@@ -13,23 +13,23 @@ function Contact() {
       <section id="contact" className="section contact-section">
         <div className="container email-section">
           <div className="contact-left">
-             <h1>
-            <span className="title-dark">LET'S CONNECT</span>
+             <h2>
+            <span className="connect">connect</span>
            
-          </h1>
+          </h2>
 
 
           <div class="contact-wheel">
 
-  <a href="mailto:yourname@example.com" className="circle-link"></a>
+  <div className="circle-link"></div>
   <a href="mailto:fathimamazeena.mycloudcubicle@gmail.com" className="circle-link"><i className="fas fa-envelope"></i></a>
-  <a href="https://github.com/yourprofile" className="circle-link"></a>
+  <div className="circle-link"></div>
   <a href="https://www.linkedin.com/in/fathimamazeenacader/" className="circle-link"><i className="fa-brands fa-linkedin-in"></i></a>
   <a href="https://wa.me/+94758843241" className="circle-link"><i className="fab fa-whatsapp"></i></a>
    <a href="https://medium.com/@mazeenacader" className="circle-link"><i className="fab fa-medium"></i></a>
-  <a href="https://github.com/yourprofile" className="circle-link"></a>
+   <div className="circle-link"></div>
   <a href="https://github.com/FathimaMazeena" className="circle-link"><i className="fab fa-github"></i></a>
-  <a href="https://twitter.com/yourprofile" className="circle-link"></a>
+ <div className="circle-link"></div>
 
 </div>
 

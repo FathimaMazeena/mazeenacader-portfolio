@@ -13,6 +13,7 @@ import Hero from '../src/sections/hero/Hero'
 import Projects from '../src/sections/projects/Projects'
 import About from './sections/about/About'
 import Snapshot from './sections/snapshot/Snapshot'
+import DevFooter from './components/devFooter/DevFooter'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
        */}
        <Contact/>
       <Footer/>
+          <DevFooter />
       
     </>
   )

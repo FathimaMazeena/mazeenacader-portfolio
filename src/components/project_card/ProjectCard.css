@@ -150,7 +150,19 @@ height: 100%;
     rgba(245, 245, 245, 0.2) 100%
   );
 
+
+  
 }
+
+.project-card.small:nth-child(2n-1) .primary-tech{
+background: linear-gradient(
+    135deg,
+    #6b2cf5,
+    #d450e6,
+    #6db3fc
+  );
+  color: white;
+  }
 
 .project-card.small:nth-child(2n)::after{
   content: '';
