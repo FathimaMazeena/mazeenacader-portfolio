@@ -8,6 +8,9 @@
 
 .hero-wrapper{
     padding-inline: clamp(1rem, 5vw, 5rem);
+   
+    /* padding-block: clamp(2rem, 10vw, 8rem); */
+    
     display: flex;
     /* flex-wrap: wrap;
     margin: auto; */

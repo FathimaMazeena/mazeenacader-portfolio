@@ -16,8 +16,11 @@ font-weight: 200;  */
 .email-section{
 display:grid;
       grid-template-columns: repeat(2, 1fr);
+      gap: 4rem; 
+  align-items: start;
 
 }
+
 
 .contact-links{
   display:flex;
@@ -48,6 +51,10 @@ display:grid;
   padding-left: 20px;
   padding-block: 1rem;
 
+   /* padding-left: 16px;
+  background: rgba(0,0,0,0.01);
+  border-radius: 8px; */
+
   
 }
 
@@ -58,8 +65,8 @@ display:grid;
   position: absolute;
   top: 20px;
   left: 0;
-  width: 2px;       /* thickness of the border */
-  height: 100%;     /* full height */
+  /* width: 2px;        */
+  height: 100%;    
 
   background: linear-gradient(
     135deg,
@@ -67,7 +74,9 @@ display:grid;
     #d450e6,
     #6db3fc
   );
-  /* background: var(--gradient-black) ; */
+
+  width: 1px;
+  opacity: 0.5;
 }
 
 
@@ -174,6 +183,7 @@ width: 300px;
 
 }
 
+
 .subject input{
   font-weight: bolder;
   /* width: 300px;
@@ -204,6 +214,12 @@ width: 300px;
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+}
+
+.input-box:focus-within,
+.subject:focus-within {
+  border-color: #6b2cf5;
+  box-shadow: 0 0 0 3px rgba(107,44,245,0.1);
 }
 
 textarea{
@@ -246,6 +262,17 @@ font-size: 1em;
    flex-wrap: wrap;
 
 }
+
+.contact-form h2 {
+ 
+  font-weight: 600;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  color: #1a1a1a;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+}
+
+
 
 /* .title-light{
 font-size: 0.7em;
@@ -574,6 +601,15 @@ margin: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+
+.circle-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 
 .circle-link i {
@@ -605,10 +641,10 @@ margin: 4rem;
 .circle-link:nth-child(7) { justify-self: end; align-self: start; }
 .circle-link:nth-child(9) { justify-self: start; align-self: start; }
 
-.connect{
+/* .connect{
   position: relative;
   letter-spacing: 20px;
-  /* background: linear-gradient(
+  background: linear-gradient(
     135deg,
     #6b2cf5,
     #d450e6,
@@ -616,7 +652,7 @@ margin: 4rem;
   );
 
   -webkit-background-clip: text;
-  background-clip: text; */
+  background-clip: text;
   color: transparent;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -642,7 +678,26 @@ margin: 4rem;
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+} */
+
+
+
+.connect {
+ text-transform: capitalize;
+
+  font-weight: 500;
+  font-size: clamp(1.4rem, 3.5vw, 3rem);
+  /* color: #1a1a1a; */
+   color: transparent;
+  background: linear-gradient(135deg, #6b2cf5, #d450e6, #6db3fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* letter-spacing: -0.02em; */
+    letter-spacing: 0.01em;
+  margin-bottom: 2rem;
 }
+
+
 
 /* .connect:before{
 content: "CONNECT";

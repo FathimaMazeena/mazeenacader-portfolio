@@ -67,22 +67,22 @@ export default function About() {
         <div className="col metrics-wrapper">
           <div className="project-metrics">
             <div className="metrics-col">
-              <h1 className="text-highlight numbers">20+</h1>
+              <h1 className="text-highlight numbers">10+</h1>
               <p>Total Projects</p>
             </div>
 
             <div className="metrics-col">
-              <h1 className="text-highlight numbers">5+</h1>
+              <h1 className="text-highlight numbers">3+</h1>
               <p>Full-Stack Applications</p>
             </div>
 
             <div className="metrics-col">
-              <h1 className="text-highlight numbers">2+</h1>
+              <h1 className="text-highlight numbers">2</h1>
               <p>AI Projects</p>
             </div>
 
             <div className="metrics-col">
-              <h1 className="text-highlight numbers">2+</h1>
+              <h1 className="text-highlight numbers">2</h1>
               <p>Landing Pages</p>
             </div>
 
